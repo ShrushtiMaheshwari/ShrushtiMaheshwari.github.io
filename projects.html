@@ -79,144 +79,128 @@
 					
 						<p>You can find some of the projects I have worked on below.</p>
 						<ul>
-							<li><a href="https://github.com/ShreyasMundhra/PID-Control"><font color="blue">From Print Parameters to Mechanical Performance: A Predictive Modeling Framework for FDM PLA</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/PID-Control"><font color="blue">Nonlinear Viscoelastic Creep Modeling of Heat-Treated FDM PLA</font></a>
 							<ul>
-							<li>Implemented a PID controller for the steering angle in C++ for the Self Driving Car Nanodegree on Udacity.</li>
-							<li>Implemented different levels of throttle depending on the cross-track error.</li>
+							<li>Developed and validated a nonlinear Burgers-based constitutive model incorporating stress-, temperature-, and crystallinity-dependent parameters to capture creep loading–unloading behavior of semi-crystalline polymers.</li>
+							<li>Performed multi-curve parameter calibration in MATLAB (SQP-based optimization) across 27–47 °C and 8–12 MPa; achieved R² ≈ 0.98 against experimental data.</li>
+							<li>Integrated Schapery nonlinear viscoelastic framework into Burgers compliance formulation to model stress-dependent creep at elevated temperatures.</li>
+							<li>Linked microstructural evolution (3% → 53% crystallinity via DSC) to constitutive parameters, enabling physics-informed prediction of long-term deformation behavior.</li>
 							</ul>
 							</li>
 						
-							<li><a href="https://github.com/ShreyasMundhra/Path-Planning"><font color="blue">Highway Driving</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/Path-Planning"><font color="blue">Thermo-Mechanical Modeling of Heat-Treated 3D-Printed PLA Scaffolds</font></a>
 							<ul>
-							<li>Implemented a path planner in C++ to drive a car down a highway for the Self Driving Car Nanodegree on Udacity.</li>
-							<li>Generated a smooth trajectory for the vehicle every 0.02 seconds based on predictions from sensor fusion data of other vehicles.</li>
-							<li>Achieved a driving distance of more than 4.3 miles without any incident.</li>
+							<li>Developed a processing–structure–property framework linking DSC-derived crystallinity (3% → ~54%) to compressive yield enhancement (~20% increase) in FDM-printed PLA scaffolds (HT90(120)-70 condition).</li>
+							<li>Performed temperature-dependent and physiologically relevant compression testing (27°C vs 37°C; dry vs wet), generating validated stress–strain datasets for nonlinear material calibration.</li>
+							<li>Characterized surface morphology evolution (Sa: ~25 µm → ~44 µm) and correlated roughness-driven microstructural changes with biodegradation and mechanical response.</li>
+							<li>Established constitutive insight into cyclic unloading–reloading behavior, demonstrating improved elastic recovery and deformation resistance in recrystallized PLA scaffolds.</li>
 							</ul>
 							</li>
 							
-							<li><a href="https://github.com/ShreyasMundhra/Kidnapped-Vehicle-Localization"><font color="blue">Car Localization</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/Kidnapped-Vehicle-Localization"><font color="blue">Nonlinear Cyclic Constitutive Modeling of FDM-Printed PLA</font></a>
 							<ul>
-							<li>Implemented a particle filter to localize a car for the Self Driving Car Nanodegree on Udacity.</li>
-							<li>Achieved an MAE of 0.112, 0.104, 0.004 for the x-coordinate, y-coordinate and yaw respectively.</li>
+							<li>Developed a thermo-mechanically coupled viscoplastic constitutive model capturing cyclic loading–unloading behavior of semi-crystalline PLA, incorporating internal variable evolution and strain-rate dependence.</li>
+							<li>Implemented and validated a multi-network framework (amorphous + crystalline phases) to capture hysteresis, stiffness evolution, and cyclic softening/hardening under compression.</li>
+							<li>Calibrated model parameters via nonlinear optimization in MATLAB and achieved high-fidelity agreement with experimental stress–strain loops across multiple strain rates and temperatures.</li>
+							<li>Structured formulation for 3D finite element implementation (UMAT/VUMAT-ready), enabling predictive simulation of time-dependent deformation in load-bearing polymer components.</li>
 							</ul>
 							</li>
 							
-							<li><a href="https://github.com/ShreyasMundhra/ImageStitching"><font color="blue">Image Stitching</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/ImageStitching"><font color="blue">Frequency–Temperature Master Curve Modeling of Glass–Epoxy Composites</font></a>
 							<ul>
-							<li>Implemented an image stitching algorithm in Python using SIFT descriptors, feature matching, RANSAC and homography to stitch five images into a panorama.</li>
-							<li>Used numpy and opencv for image processing and matplotlib for visualization.</li>
+							<li>Conducted DMA frequency sweeps (0.1–10 Hz, 30–110 °C) on neat epoxy and optimized glass–epoxy composites (15% spherical, 10% milled fiber); identified Tg ≈ 73 °C and generated master curves spanning 10⁻⁶–10⁸ Hz via WLF-based TTS.</li>
+							<li>Quantified filler-geometry effects: 10% milled fiber composite achieved ~65% higher storage modulus (E′) than neat epoxy at high reduced frequencies due to enhanced polymer chain entanglement.</li>
+							<li>Developed a 14-term Prony series viscoelastic model with skewed Gaussian relaxation spectrum, achieving R² ≈ 0.98–0.99 across materials for master curve fitting.</li>
+							<li>Correlated SEM-observed filler–matrix debonding and microstructural deformation with reduced E′ at elevated temperatures, linking micro-mechanics to constitutive parameters.</li>
 							</ul>
 							</li>
 						
-							<li><a href="https://github.com/ShreyasMundhra/Extended-Kalman-Filter"><font color="blue">Sensor Fusion</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/Extended-Kalman-Filter"><font color="blue">EEG-Controlled Pneumatic Medical Bed (Brain–Computer Interface Prototype)</font></a>
 							<ul>
-							<li>Implemented an Extended Kalman Filter to track a bicycle using LiDAR and RADAR data for the Self Driving Car Nanodegree on Udacity.</li>
-							<li>Achieved RMSE values of 0.0871, 0.0936, 0.4871, 0.4795 for the x and y components of position, and x and y components of velocity respectively.</li>
+							<li>Designed and built a non-contact BCI-based control system enabling patients to raise/lower a pneumatically actuated hospital bed using EEG signals and machine learning classification (lift up, lower down, comfort pose).</li>
+							<li>Integrated EEG headset, ML signal processing, Node-RED logic, 8-bit DAQ, power amplifier, proportional DC valve, and double-acting pneumatic cylinder into a closed-loop electro-pneumatic architecture.</li>
+							<li>Implemented a PID-controlled position feedback system (magnetic cylinder sensor) to achieve stable, low-error actuator positioning under compressible air dynamics.</li>
+							<li>Experimentally validated on multiple users after 16-hour training cycles, demonstrating reliable thought-to-actuation translation and repeatable comfort-position control.</li>
 							</ul>
 							</li>
 						
-							<li><a href="https://github.com/ShreyasMundhra/Behavioral-Cloning"><font color="blue">Behavioral Cloning</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/Behavioral-Cloning"><font color="blue">Laser-Based Post-Processing of Additive Manufactured Components</font></a>
 							<ul>
-							<li>Trained a CNN in Keras to drive a car like a human for the Self Driving Car Nanodegree on Udacity.</li>
-							<li>Used dropout regularization to prevent overfitting.
-							<li>Achieved validation MAE of 0.1 on steering angle predictions from front-facing center camera images.</li>
-							<li>Augmented dataset with left-right flipped images, left and right camera images with a steering angle correction.</li>
+							<li>Authored a comprehensive technical review on laser polishing and laser shock peening for AM metals and polymers, covering SLM, EBM, FDM, WAAM, and Binder Jet processes.</li>
+							<li>Analyzed defect mechanisms (balling, stair-stepping, residual tensile stress, porosity) and mapped them to optimized laser-based mitigation strategies.</li>
+							<li>Compared continuous-wave, pulsed, and femtosecond laser polishing mechanisms, highlighting melt-pool dynamics, capillary flow, and selective ablation regimes.</li>
+							<li>Synthesized roughness and fatigue data across Ti-6Al-4V, CoCr, SS316L, AlSi10Mg, and Inconel alloys, demonstrating up to ~90%+ surface roughness reduction and significant compressive residual stress induction via LSP.</li>
 							</ul>
 							</li>
 							
-							<li><a href="https://github.com/ShreyasMundhra/Traffic-Sign-Classifier"><font color="blue">Traffic Sign Classification</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/Traffic-Sign-Classifier"><font color="blue">Deep Neural Network for Predicting Strength of Dissimilar Friction Stir Welds</font></a>
 							<ul>
-							<li>Trained a CNN using Tensorflow to detect traffic signs for a project of the Self Driving Car Nanodegree on Udacity.</li>
-							<li>Achieved a validation accuracy of 93% and a test accuracy of 91.9% on the German Traffic Signs dataset.</li>
+							<li>Developed a 5-layer feed-forward, backpropagated DNN to predict ultimate tensile strength (UTS) and weld efficiency of dissimilar Al–Ti friction stir welds using rotation speed, weld speed, thickness, and base material strength as inputs.</li>
+							<li>Performed hyperparameter optimization (Adam, LogCosh loss, mixed activation functions) and data normalization to capture strong nonlinearity in weld physics and microstructural evolution.</li>
+							<li>Achieved R² = 0.95 (training) and 0.90 (testing) on literature dataset; experimental validation on Al–Ti welds demonstrated R² ≈ 0.91–0.98, confirming predictive robustness.</li>
+							<li>Experimentally validated model predictions via ASTM E8 tensile testing and SEM microstructural characterization, correlating Ti particle fragmentation, heat input, and weld quality with predicted mechanical performance.</li>
 							</ul>
 							</li>
-							<li><a href="https://github.com/ShreyasMundhra/Advanced-Lane-Line-Detection"><font color="blue">Lane Detection</font></a>
+
+							<li><a href="https://github.com/ShreyasMundhra/Advanced-Lane-Line-Detection"><font color="blue">Bio-Printing Inks & Process Compatibility for 3D Tissue Engineering</font></a>
 							<ul>
-							<li>Detecting lane lines in a <a href="https://www.youtube.com/watch?v=Bisghwev92I"><font color="blue">video</font></a> for a project of the Self Driving Car Nanodegree on Udacity.</li>
-							</ul>
-							</li>
-							
-							<li><a href="https://github.com/ShreyasMundhra/Syntactic-Parsing"><font color="blue">Syntactic Parsing</font></a>
-							<ul>
-							<li>Trained a PCFG for syntactic parsing from a corpus of annotated sentences from the Wall Street Journal.</li>
-							<li>Achieved an F1 Score of 0.742 with the help of Vertical Markovization using CKY for inference.</li>
-							</ul>
-							</li>
-							<li><a href="https://github.com/ShreyasMundhra/Named-Entity-Recognition"><font color="blue">Named Entity Recognition</font></a>
-							<ul>
-							<li>Built trigram HMM tagger for named entity recognition.</li>
-							<li>Grouped low frequency words into categories like numbers, abbreviations, upper case and so on.</li>
-							<li>Achieved a precision of 0.745, recall of 0.731 and F1 Score of 0.738 using the Viterbi algorithm.</li>
+							<li>Conducted a comprehensive technical review mapping bio-ink material properties (viscosity, gelation rate, surface tension, UV stability) to major bioprinting platforms including FDM, SLA/DLP, DIW, Laser-Guided Writing, and Inkjet printing.</li>
+							<li>Analyzed process–material compatibility constraints, defining quantitative ink requirements (e.g., FDM melt viscosity & temperature ranges, SLA optical transparency, Inkjet viscosity <10 cP, DIW gelation kinetics).</li>
+							<li>Evaluated leading bio-inks such as PCL, PLA, PEEK, PPF, PDLLA, GelMA-PEGDA hydrogels, correlating mechanical strength, degradation behavior, and cell viability with specific printing mechanisms.</li>
+							<li>Identified critical engineering trade-offs between resolution, mechanical integrity, degradation kinetics, and cell survival, outlining pathways for multi-material and gene-activated bio-ink development.</li>
 							</ul>
 							</li>
 							
-							<li><a href="https://github.com/ShreyasMundhra/NewsRecommender"><font color="blue">News Recommendation Engine</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/Syntactic-Parsing"><font color="blue">Heat-Treatment Optimization of 3D-Printed PLA Scaffolds for Enhanced Biomechanics & Biocompatibility</font></a>
 							<ul>
-							<li>Achieved a cumulative take-rate of 99.33% with LinUCB algorithm using numpy to recommend news articles.</li>
+							<li>Designed and fabricated ASTM D695-compliant solid PLA scaffolds using FDM, followed by systematic post-processing heat treatment (60–105°C; 0.5–2 h) to optimize structure–property relationships.</li>
+							<li>Increased crystallinity from ~3% (untreated) to ~53% via controlled annealing at 90°C for 2 h, validated through DSC thermal analysis.</li>
+							<li>Improved compressive yield strength from ~65 MPa to ~85 MPa and transformed post-yield behavior from strain softening to strain hardening.</li>
+							<li>Demonstrated enhanced biological performance: cell viability improved from ~64% to ~96%, with uniform cell spreading enabled by heat-induced micron-scale surface morphologies.</li>
 							</ul>
 							</li>
-							<li><a href="https://github.com/ShreyasMundhra/MovieRecommender"><font color="blue">Movie Recommendation Engine</font></a>
+
+							<li><a href="https://github.com/ShreyasMundhra/Named-Entity-Recognition"><font color="blue">Indigenous 3-DoF & 6-DoF Motion Platform for Gaming & Training Simulators</font></a>
 							<ul>
-							<li>Achieved an RMSE of 0.9 on the MovieLens dataset using collaborative filtering with pandas and numpy.</li>
+							<li>Contributed to the mechanical design and development of 3-DoF and 6-DoF parallel motion platforms (Stewart-Gough architecture) capable of handling ~150 kg payload for immersive gaming and training simulations.</li>
+							<li>Supported actuator selection, controller hardware integration, and motion-control architecture enabling real-time synchronization between gaming engines (e.g., Project Cars, Forza) and physical motion output.</li>
+							<li>Assisted in system integration of peripherals including steering, pedals, gear shifter, VR/triple-display interface, and safety systems (seatbelt, emergency stop).</li>
+							<li>Participated in end-to-end product development lifecycle: mechanical fabrication, controller tuning, GUI integration, system testing, documentation, and deployment planning for commercialization.</li>
 							</ul>
 							</li>
-							<li><a href="https://drive.google.com/open?id=1pWaZmexQv7JJfB7N9o0X8Zmr3MwPpGpP"><font color="blue">Neural Car Detection on ILSVRC 2012 Dataset (Undergrad Thesis)</font></a>
+							
+							<li><a href="https://github.com/ShreyasMundhra/NewsRecommender"><font color="blue">Thermo–Mechanical Viscoplastic Modeling of FDM-Printed PLA Under Compression</font></a>
 							<ul>
-							<li>Under the supervision of <a href="http://www.ntu.edu.sg/home/sinnopan/"><font color="blue">Prof Pan Sinno Jialin</font></a>.</li>
-							<li>Used opencv for image processing and trained a single pass convolutional neural network using lasagne.</li>
+							<li>Designed and executed temperature- (25–50°C) and strain rate-dependent (2.1×10⁻³–2.1×10⁻² s⁻¹) compression experiments on ASTM D695 specimens; identified Tg ≈ 55°C via DMA and established clear thermo–rate coupling in yield and post-yield behavior.</li>
+							<li>Developed a finite-strain thermo-mechanical viscoplastic constitutive model (Arruda–Boyce hyperelastic network + viscous dashpot) capable of capturing strain softening and rate-dependent flow using a single parameter set.</li>
+							<li>Implemented the model in MATLAB using constrained SQP optimization (fmincon) for simultaneous multi-condition calibration; achieved overall R² ≈ 0.98 between experimental and predicted stress–strain responses.</li>
+							<li>Correlated SEM-observed micro-damage mechanisms (void growth, filament fragmentation, twist) with global stress–strain trends, enabling physics-informed prediction of PLA performance in temperature-sensitive applications.</li>
 							</ul>
 							</li>
-							<li><a href="https://github.com/ji42/RaffleHackathon"><font color="blue">RaffleChain</font></a>
+							<li><a href="https://github.com/ShreyasMundhra/MovieRecommender"><font color="blue">IoT-Based Smart School Bus Management System (End-to-End Architecture Design)</font></a>
 							<ul>
-							<li>Created a raffle on the Nebulas blockchain using JavaScript and HTML.</li>
-							<li>Won "Best Implementation" in the Silicon Valley Blockchain Developer Hackathon.</li>
+							<li>Designed a multi-layer IoT architecture (device–network–session–application–business layers) integrating GPS, RFID, air-quality, vibration, temperature/humidity, CCTV, and emergency modules using ESP32 microcontrollers and MQTT protocol.</li>
+							<li>Developed complete sensor placement strategy and circuit-level integration, including GPS tracking (Neo-6M), RFID attendance (RC522), gas detection (MQ2), oxygen monitoring, vibration sensing, and real-time camera streaming.</li>
+							<li>Implemented a publish–subscribe MQTT communication framework with SQL cloud database for real-time stakeholder access (school, parents, transporters, drivers) and threshold-based alert management.</li>
+							<li>Proposed data-driven optimization using machine learning (e.g., logistic regression for punctuality profiling) to improve route efficiency, safety, maintenance planning, and stakeholder feedback integration.</li>
 							</ul>
 							</li>
-							<li><a href="https://github.com/ShreyasMundhra/Caterpillar-Tube-Pricing"><font color="blue">	Caterpillar Tube Pricing (Kaggle Competition)</font></a>
+
+							<li><a href="https://drive.google.com/open?id=1pWaZmexQv7JJfB7N9o0X8Zmr3MwPpGpP"><font color="blue">Laser Shock Peening (LSP) of FDM-Printed PLA for Mechanical Reinforcement</font></a>
 							<ul>
-							<li>Price prediction for a given tube assembly based on detailed tube, component and annual volume datasets.</li>
-							<li>Pandas and numpy for data preprocessing and feature extraction, sklearn for training multiple models like random forests, Lasso regression, neural networks, support vector regressors and xgboost with bagging.</li>
-							<li>Top 3% on the public leaderboard and the top 2% in the private leaderboard.</li>
+							<li>Designed and executed a parameter-optimized laser shock peening (LSP) study on FDM-printed PLA using a Q-switched Nd:YAG laser (up to 257 mJ), systematically varying pulse energy, translation speed, and repetition rate to control fluence and shock pressure.</li>
+							<li>Achieved ~45% improvement in compressive plateau stress (from ~55 MPa untreated to ~78 MPa) under optimized conditions (257 mJ, 5 mm/s, 10 Hz) without thermal degradation.</li>
+							<li>Modeled and quantified fluence, peak shock pressure (up to ~3.97 GPa), pulse overlap, and interaction time, linking laser parameters to subsurface plastic deformation and residual stress development.</li>
+							<li>Validated microstructural changes via optical microscopy, demonstrating improved interlayer bonding and void closure under optimal settings, while identifying burn-induced degradation under excessive heat accumulation.</li>
 							</ul>
 							</li>
-							<li><a href="https://github.com/ShreyasMundhra/Lumos"><font color="blue">Lumos</font></a>
+
+							<li><a href="https://github.com/ji42/RaffleHackathon"><font color="blue">Strain Rate & Infill Density Effects on Compressive Behavior of FDM-Printed PLA</font></a>
 							<ul>
-							<li>Android app for HackPrinceton, which serves as an auditory aid for the visually impaired.</li>
-							<li>Used the Google Cloud Vision API to detect objects in a picture.</li>
-							</ul>
-							</li>
-							<li><a href="https://github.com/ShreyasMundhra/TrafficAccidentAnalysis"><font color="blue">Traffic Accident Analysis</font></a>
-							<ul>
-							<li>Implemented Bayes model using pandas and numpy and DBSCAN clustering using sklearn.</li>
-							<li>Identified locations which need more policemen and factors policemen should focus more on, in order to reduce traffic accidents.</li>
-							</ul>
-							</li>
-							<li><a href="https://github.com/ShreyasMundhra/kaggle-titanic"><font color="blue">Titanic (Kaggle Competition)</font></a>
-							<ul>
-							<li>Predicting the survivors of the sinking of the Titanic.</li>
-							<li>Pandas for data preprocessing and feature extraction like salutation, sklearn for training a support vector machine, which helped me to achieve an accuracy of 0.78947.</li>
-							</ul>
-							</li>
-							<li><a href="https://github.com/ShreyasMundhra/GuessWho"><font color="blue">Guess Who</font></a>
-							<ul>
-							<li>Developed an Android game for dementia patients to boost their memory.</li>
-							<li>Kairos API for facial feature detection (eyes, nose, mouth), and IBM’s Watson API for speech manipulation.</li>
-							</ul>
-							</li>
-							<li><a href="https://github.com/ShreyasMundhra/CZ4046-Assignment1"><font color="blue">Maze Traveller</font></a>
-							<ul>
-							<li>Programmed an agent in Java to follow the optimal policy in a maze environment using value iteration and policy iteration.</li>
-							</ul>
-							</li>
-							<li><a href="https://github.com/ShreyasMundhra/MPAM"><font color="blue">Medipoint</font></a>
-							<ul>
-							<li>Android app for doctors and patients to manage their appointments.</li>
-							</ul>
-							</li>
-							<li><font color="blue">Robot Navigator</font>
-							<ul>
-							<li>Programming a robot to explore a maze and then navigate it along the shortest path.</li>
-							<li>Implemented the left wall following algorithm from scratch for the maze exploration.</li>
+							<li>Conducted systematic compression testing on FDM-printed PLA across multiple strain rates and infill densities, establishing clear coupling between internal architecture and rate-dependent mechanical response.</li>
+							<li>Demonstrated that increasing infill density significantly enhances yield strength, stiffness, and energy absorption, while lower densities amplify strain-rate sensitivity due to internal void-driven deformation mechanisms.</li>
+							<li>Quantified progressive deformation modes (cell wall buckling, filament fracture, interlayer debonding) using stress–strain analysis and microstructural observations to explain architecture-driven mechanical trends.</li>
+							<li>Established design guidelines linking print architecture (infill %) → deformation mechanism → compressive strength, enabling performance tuning of lightweight FDM components for structural applications.</li>
 							</ul>
 							</li>
 						</ul>
